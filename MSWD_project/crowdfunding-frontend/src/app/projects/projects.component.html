@@ -1,0 +1,9 @@
+<h1>Crowdfunding Projects</h1>
+<ul>
+  <li *ngFor="let project of projects">
+    <h2>{{ project.title }}</h2>
+    <p>{{ project.description }}</p>
+    <p>Goal: {{ project.goalAmount }}</p>
+    <p>Raised: {{ project.raisedAmount }}</p>
+    </li>
+</ul>
